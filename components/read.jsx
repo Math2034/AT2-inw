@@ -95,8 +95,7 @@ export default function Read() {
             <ul class="list-group cProductsList"> 
                 <li class="list-group-item d-flex"><h4 class="p-0 m-0 flex-grow-1">{lista.alimento} {lista.validade}</h4> 
                    <button onClick={()=>show(lista.id)} class="btn btn-outline-warning">Alterar</button> 
-                   <button onClick={()=>deleteBtn(lista.id)} class="btn btn-outline-danger">Excluir</button>
-                   <button class="btn btn-outline-dark"><a href='/descartados'>Descartado</a></button>                 
+                   <button onClick={()=>deleteBtn(lista.id)} class="btn btn-outline-danger">Excluir</button>              
                   <label class="btn btn-outline-success"><input type="checkbox" autocomplete="off"/>Consumido</label>
                 </li>
             </ul> 
